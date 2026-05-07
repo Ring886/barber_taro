@@ -1,0 +1,10 @@
+.appointments-page {
+  .appointment-card { margin-bottom: 22px; }
+  .head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+  .service { font-size: 34px; font-weight: 800; }
+  .status { padding: 8px 18px; border-radius: 999px; background: #eee8e1; color: #8a8178; font-size: 24px; }
+  .status.active { background: #efe0cf; color: #9b5f32; }
+  .line { margin-bottom: 14px; }
+  .secondary-btn { margin-top: 20px; }
+  .add-btn { margin-top: 32px; }
+}

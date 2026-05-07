@@ -1,0 +1,13 @@
+.confirm-page {
+  .summary { margin-bottom: 20px; }
+  .row { display: flex; justify-content: space-between; padding: 18px 0; font-size: 30px; border-bottom: 1px solid #f0e3d5; color: #251f1a; }
+  .row:first-child { padding-top: 0; }
+  .row:last-child { border-bottom: 0; padding-bottom: 0; }
+  .row text:first-child { color: #8a8178; }
+  .row.total { font-weight: 900; color: #b9783f; }
+  .form-card { display: flex; flex-direction: column; gap: 20px; }
+  .input, .textarea { width: 100%; background: #f7f0e8; border-radius: 20px; padding: 22px; font-size: 28px; }
+  .input { height: 82px; }
+  .textarea { min-height: 180px; }
+  .submit { margin-top: 40px; }
+}

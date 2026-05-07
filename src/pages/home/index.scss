@@ -1,0 +1,147 @@
+.home-page {
+  .hero {
+    padding: 44px 34px;
+    border-radius: 36px;
+    background: linear-gradient(145deg, #2b211a, #6f3f24);
+    color: #fff;
+    box-shadow: 0 18px 48px rgba(44, 31, 24, 0.24);
+  }
+
+  .hero-label {
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: #e2b17e;
+    margin-bottom: 28px;
+  }
+
+  .hero-title {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 18px;
+  }
+
+  .hero-slogan {
+    font-size: 28px;
+    color: #f0dfce;
+    margin-bottom: 18px;
+  }
+
+  .hero-meta {
+    display: inline-flex;
+    padding: 12px 20px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    font-size: 24px;
+    color: #f8eadb;
+  }
+
+  .hero-btn {
+    margin-top: 38px;
+  }
+
+  .shop-card {
+    margin-top: 28px;
+  }
+
+  .shop-row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 18px;
+    font-size: 28px;
+  }
+
+  .shop-key {
+    color: #8a8178;
+    min-width: 72px;
+  }
+
+  .shop-value {
+    color: #251f1a;
+    flex: 1;
+  }
+
+  .notice {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #f6eadb;
+    color: #7a4a27;
+    font-size: 26px;
+    line-height: 1.6;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  .service-card {
+    background: #fffaf4;
+    border-radius: 28px;
+    padding: 26px;
+    border: 1px solid rgba(185, 120, 63, 0.16);
+  }
+
+  .service-tag {
+    display: inline-flex;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: #efe0cf;
+    color: #9b5f32;
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+
+  .service-name {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .service-price {
+    color: #b9783f;
+    font-weight: 800;
+    font-size: 34px;
+    margin-top: 20px;
+  }
+
+  .barber-card {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding: 24px;
+    border-radius: 28px;
+    background: #fffaf4;
+    margin-bottom: 18px;
+  }
+
+  .avatar {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d49a63, #7a4a27);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 800;
+  }
+
+  .barber-info {
+    flex: 1;
+  }
+
+  .barber-name {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .score {
+    color: #b9783f;
+    font-weight: 800;
+    font-size: 30px;
+  }
+}

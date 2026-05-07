@@ -1,0 +1,10 @@
+.profile-page {
+  .profile-card { display: flex; align-items: center; gap: 24px; padding: 34px; border-radius: 34px; background: linear-gradient(145deg, #2b211a, #6f3f24); color: #fff; }
+  .avatar { width: 104px; height: 104px; border-radius: 50%; background: #d49a63; display: flex; align-items: center; justify-content: center; font-size: 40px; font-weight: 900; }
+  .name { font-size: 36px; font-weight: 900; margin-bottom: 10px; }
+  .profile-card .muted { color: #f0dfce; }
+  .menu-row { display: flex; justify-content: space-between; gap: 24px; padding: 22px 0; border-bottom: 1px solid #f0e3d5; font-size: 28px; }
+  .menu-row:last-child { border-bottom: 0; }
+  .menu-row text:last-child { color: #8a8178; text-align: right; flex: 1; }
+  .tips { display: flex; flex-direction: column; gap: 16px; color: #7a4a27; font-size: 27px; line-height: 1.6; }
+}
